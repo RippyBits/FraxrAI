@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="it">
+    <meta name="keywords" content="AI, Fracture Detector, AI Project, Computer Vision"> <!-- For Google Search -->
+    <title>
+        AI Camp FraxrAI - Test Website <!-- Temp -->
+    </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dis<strong></strong>t/css/bootstrap.min.css" integrity="sha384 ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/static/plugins/fontawesome/css/all.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/newstyle.css')}}">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <section class="header" style="background-image: -webkit-linear-gradient(0deg, rgba(21, 30, 41, 0.7), rgba(21, 30, 41, 0.7)), url({{ url_for('static', filename='images/banner.png')}})">
+        <nav>
+<ol>
+    <li> </li>
+</ol>
+
+            <a href="top"><img src="{{ url_for('static', filename='images/logo.png')}}"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#Demo">DEMO</a></li>
+                    <li><a href="#About">ABOUT US</a></li>
+             
+                </ul>
+            </div>
+        </nav>
+
+<div class="text-box">
+    <h1> FraxrAI</h1>
+
+    <p>An AI capable of detecting fractures from x-ray images. <br>Click the button below to upload an image and see if there's a visible bone fracture!</p>
+
+
+
+
+
+<!-- Button -->
+<script src="/static/web/assets/jquery/jquery.min.js"></script>
+<script src="/static/tether/tether.min.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/jarallax/jarallax.js"></script>
+<script src="/static/masonry/masonry.pkgd.min.js"></script>
+<script src="/static/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="/static/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+<script src="/static/smooth-scroll/smooth-scroll.js"></script>
+<script src="/static/puritym/js/script.js"></script>
+<a class="hero-btn" id="seefood_button">
+    <form id='seefood_form' method=post enctype=multipart/form-data> 
+        <input id="seefood_input_field" name="file" type="file" onchange="this.form.submit();" hidden/>
+    </form>
+
+    <button href="#" target="_blank" class="form-control seefood_button">
+        <i></i> Click to detect fracture!
+    </button>
+</a>
+<!--Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="{{ url_for('static', filename='plugins/jquery/jquery.min.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="{{ url_for('static', filename='js/theme.js')}}"></script>
+<script>
+    // added to get upload with a button working
+    document.getElementById('seefood_button').addEventListener('click', openDialog);
+
+    function openDialog() {
+        document.getElementById('seefood_input_field').click();
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#spinner").bind("ajaxSend", function() {
+            $(this).show();
+        }).bind("ajaxStop", function() {
+            $(this).hide();
+        }).bind("ajaxError", function() {
+            $(this).hide();
+        });
+        // seefood_input_field
+        $('#seefood_button').click(function() {
+
+        });
+    });
+</script>
+
+
+
+</div>
+
+    </section>
+
+
+
+
+
+
+<!-- Block 2 -->
+    <section class="Demo">
+        <h1>PUT DEMO HERE</h1>
+    <img src="{{ url_for('static', filename='FraxRAI Updated Slide.png')}}">
+
+
+
+
+
+
+
+    </section>
+
+<!-- Block 3 -->
+    <section class = "about-us">
+        <h1 id="About">About Us</h1>
+        <p>A group of students who were determined to learn about and build an AI product. <br> Even More words but on a different line this time</p>
+
+        <div class="about-us-row">
+            <div class="about-us-col">
+                <img src="{{ url_for('static', filename='images/banner.png')}}" width="100" height=100/>
+                <h3>Adrian Van Dyke</h3>
+
+            </div>
+            <div class="about-us-col">
+                <img src="{{ url_for('static', filename='images/banner.png')}}" width="100" height=100/>
+                <h3>  Aryan Modak  </h3>
+
+            </div>
+            <div class="about-us-col">
+                <img src="{{ url_for('static', filename='images/banner.png')}}" width="100" height=100/>
+                <h3> Kasra Kashkoli </h3>
+
+            </div>
+        </div>
+
+        <div class="about-us-row">
+            <div class="about-us-col">
+                <img src="{{ url_for('static', filename='images/banner.png')}}" width="100" height=100/>
+                <h3>  Noah Myhill  </h3>
+
+            </div>
+<ul>
+    <li> </li>
+</ul>
+
+            <div class="about-us-col">
+                <img src="{{ url_for('static', filename='images/banner.png')}}" width="100" height=100/>
+                <h3>  Stanley Hu  </h3>
+
+            </div>
+            <div class="about-us-col">
+                <img src="{{ url_for('static', filename='images/banner.png')}}" width="100" height=100/>
+                <h3>  Tyler Palino  </h3>
+
+            </div>
+        </div>
+    </section>
+
+<!-- Block 3 -->
+    <section class = "footer">
+      
+
+
+
+    </section>
+
+    </body>
+</html>

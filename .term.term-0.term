@@ -1,0 +1,267 @@
+(base) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git[K[K[Kconda activate ev_Env[K[K[Kenv
+Could not find conda environment: ev_env
+You can list all discoverable environments with `conda info --envs`.
+
+(base) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ conda activate ev_env[1Pv_envcv_env
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git sttus[K[K[Katus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   app/best.pt[m
+	[31mmodified:   app/main.py[m
+	[31mdeleted:    app/static/css/maps/style.css.map[m
+	[31mdeleted:    app/static/css/style.css[m
+	[31mdeleted:    app/static/images/ai-camp-logo-128x128.png[m
+	[31mdeleted:    app/static/images/ari.jpg[m
+	[31mdeleted:    app/static/images/beatrice-600x600.jpg[m
+	[31mdeleted:    app/static/images/clem-5-emo-ncm-671x690.jpg[m
+	[31mdeleted:    app/static/images/clem-600x600.jpg[m
+	[31mdeleted:    app/static/images/happy-450x450-450x450.png[m
+	[31mdeleted:    app/static/images/happy-450x450.png[m
+	[31mdeleted:    app/static/images/hashes.json[m
+	[31mdeleted:    app/static/images/img-6087-1400x1050.jpg[m
+	[31mdeleted:    app/static/images/michael.jpg[m
+	[31mdeleted:    app/static/images/michael.png[m
+	[31mdeleted:    app/static/images/muti-600x600.jpg[m
+	[31mdeleted:    app/static/images/neutral-450x450-450x450.png[m
+	[31mdeleted:    app/static/images/neutral-450x450.png[m
+	[31mdeleted:    app/static/images/sad-450x450-450x450.png[m
+	[31mdeleted:    app/static/images/sad-450x450.png[m
+	[31mdeleted:    app/static/images/spinner.gif[m
+	[31mdeleted:    app/static/images/surprised-1-450x450-450x450.png[m
+	[31mdeleted:    app/static/images/surprised-1-450x450.png[m
+	[31mdeleted:    app/static/images/surprised-baby-1984x1116.jpg[m
+	[31mdeleted:    app/static/images/thomas-600x600.jpg[m
+	[31mdeleted:    app/static/images/ying.jpg[m
+	[31mdeleted:    app/static/images/ying.png[m
+	[31mmodified:   app/templates/home.html[m
+	[31mmodified:   app/templates/home1.html[m
+	[31mmodified:   app/templates/index.html[m
+	[31mmodified:   app/templates/results.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.term.term-0.term[m
+	[31mapp/.main.py-0-python3.term[m
+	[31mapp/.main.py-0.term[m
+	[31mapp/.terminal.term-0.term[m
+	[31mapp/YOLOv6/[m
+	[31mapp/static/css/newstyle.css[m
+	[31mapp/static/css/styles.css[m
+	[31mapp/static/images/AI_Camp_Original_Logo.png[m
+	[31mapp/static/images/FraxRAI Update Slide.png[m
+	[31mapp/static/images/banner.png[m
+	[31mapp/static/images/logo.png[m
+	[31mapp/static/images1/Black.jpeg[m
+	[31mapp/static/js/scripts.js[m
+	[31mapp/static/uploads/000000.jpg[m
+	[31mapp/static/uploads/000000.png[m
+	[31mapp/static/uploads/1600px_COLOURBOX8175842a.jpg[m
+	[31mapp/static/uploads/236.jpg[m
+	[31mapp/static/uploads/9.jpg[m
+	[31mapp/static/uploads/Arm-fracture-xray2_jpg.rf.9d0f5ff4a04b953a425f7bc899bb6813.jpg[m
+	[31mapp/static/uploads/Arm-fracture-xray2_jpg.rf.c3080c6e03faace94e26a7a8b9405700.jpg[m
+	[31mapp/static/uploads/Arm-fracture-xray3_jpg.rf.059c51cd9be8672af338811f86e886cb.jpg[m
+	[31mapp/static/uploads/Arm-fracture-xray5_jpg.rf.23b136adec324d827c914a0e7b4c5782.jpg[m
+	[31mapp/static/uploads/Arm_Fractures90.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray12.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray18.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray19.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray2.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray21.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray22.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray26.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray3.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray30.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray52.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray54.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray57.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray6.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray62.jpg[m
+	[31mapp/static/uploads/Arm_fracture_xray64.jpg[m
+	[31mapp/static/uploads/Beast_Reacts_-_Reacting_To_The_Worlds_Most_Satisfying_Videos_T1QUEKLNPtA_-_860x484_-_0m00s.jpg[m
+	[31mapp/static/uploads/Beast_Reacts_-_Reacting_To_The_Worlds_Most_Satisfying_Videos_T1QUEKLNPtA_-_860x484_-_0m00s.png[m
+	[31mapp/static/uploads/Fracture_Leg_Tibia-1296x728-Body2.jpg[m
+	[31mapp/static/uploads/Fractures39.jpg[m
+	[31mapp/static/uploads/Fractures44.jpg[m
+	[31mapp/static/uploads/FraxRAI_Update_Slide.jpg[m
+	[31mapp/static/uploads/FraxRAI_Update_Slide.png[m
+	[31mapp/static/uploads/Untitled2.jpg[m
+	[31mapp/static/uploads/Untitled2.png[m
+	[31mapp/static/uploads/apple.png[m
+	[31mapp/static/uploads/arm_xray29.jpg[m
+	[31mapp/static/uploads/arm_xray36.jpg[m
+	[31mapp/static/uploads/arm_xray46.jpg[m
+	[31mapp/static/uploads/arm_xray49.jpg[m
+	[31mapp/static/uploads/arm_xray53.jpg[m
+	[31mapp/static/uploads/frac.jpg[m
+	[31mapp/static/uploads/leg_xray91.jpg[m
+	[31mapp/static/uploads/unknown.jpg[m
+	[31mapp/static/uploads/unknown.png[m
+	[31mapp/static/uploads/webcam-toy-photo2.jpg[m
+	[31mapp/static/uploads/xray_fracture_leg5.jpg[m
+	[31mapp/static/uploads/xray_fracture_leg6_.jpg[m
+	[31mapp/static/uploads/xray_fracture_leg86.jpg[m
+	[31mapp/static/uploads/xray_fracture_leg90.jpg[m
+	[31mapp/templates/newhome.html[m
+	[31mapp/templates/style.css[m
+	[31mapp/terminal.term[m
+	[31mapp/yolov5/[m
+	[31mterm.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ gag[Ki[K[Kit add .
+warning: adding embedded git repository: app/YOLOv6
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> app/YOLOv6[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached app/YOLOv6[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+warning: CRLF will be replaced by LF in app/templates/style.css.
+The file will have its original line endings in your working directory
+warning: adding embedded git repository: app/yolov5
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git comomit[K[K[K[Kmi[K[K[K[K[Kstash
+Saved working directory and index state WIP on main: 38d1f0b Merge pull request #1 from RippyBits/omni_cv
+warning: unable to rmdir 'app/YOLOv6': Directory not empty
+warning: unable to rmdir 'app/yolov5': Directory not empty
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git stashadd .status[1Padd .
+warning: adding embedded git repository: app/YOLOv6
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> app/YOLOv6[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached app/YOLOv6[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+warning: adding embedded git repository: app/yolov5
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .stashadd .[K[K[K[K[Kcommit - [Km '[K[K[K[K[K
+hint: Waiting for your editor to close the file... [?1049h[?1h=[1;37r[23m[24m[0m[H[J[?25l[37;1H"~/FraxrAI/.git/COMMIT_EDITMSG" 18L, 510C[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [0m[35mmain[0m
+[34m# Your branch is up to date with '[0m[35morigin/main[0m[34m'.
+#
+# [0m[35mChanges to be committed:[0m
+[34m#       [0m[32mnew file[0m[34m: [0m[31m  .term.term-0.term[0m
+[34m#       [0m[32mnew file[0m[34m: [0m[31m  app/.terminal.term-0.term[0m
+[34m#       [0m[32mnew file[0m[34m: [0m[31m  app/YOLOv6[0m
+[34m#       [0m[32mnew file[0m[34m: [0m[31m  app/yolov5[0m
+[34m#       [0m[32mnew file[0m[34m: [0m[31m  term.term[0m
+[34m#
+# [0m[35mChanges not staged for commit:[0m
+[34m#       [0m[32mmodified[0m[34m: [0m[31m  .term.term-0.term[0m
+[34m#       [0m[32mmodified[0m[34m: [0m[31m  app/yolov5 (modified content, untracked content)[0m
+[34m#[0m
+[1m[34m~                                                                                                                                                                                [20;1H~                                                                                                                                                                                [21;1H~                                                                                                                                                                                [22;1H~                                                                                                                                                                                [23;1H~                                                                                                                                                                                [24;1H~                                                                                                                                                                                [25;1H~                                                                                                                                                                                [26;1H~                                                                                                                                                                                [27;1H~                                                                                                                                                                                [28;1H~                                                                                                                                                                                [29;1H~                                                                                                                                                                                [30;1H~                                                                                                                                                                                [31;1H~                                                                                                                                                                                [32;1H~                                                                                                                                                                                [33;1H~                                                                                                                                                                                [34;1H~                                                                                                                                                                                [35;1H~                                                                                                                                                                                [36;1H~                                                                                                                                                                                [0m[37;160H1,0-1[9CAll[1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [1;1H[34h[?25h[?25l[37;150H~@k[1;1H[37;150H   [2;1H[37;160H2,1  [2;1H[34h[?25h[?25l[37;150H~@k[2;1H[37;150H   [3;1H[37;160H3[3;1H[34h[?25h[?25l[37;150H~@k[3;1H[37;150H   [4;1H[37;160H4[4;1H[34h[?25h[?25l[37;150H~@k[4;1H[37;150H   [5;1H[37;160H5[5;1H[34h[?25h[?25l[37;150H~@k[5;1H[37;150H   [6;1H[37;160H6[6;1H[34h[?25h[?25l[37;150H~@k[6;1H[37;150H   [7;1H[37;160H7[7;1H[34h[?25h[?25l[37;150H~@k[7;1H[37;150H   [8;1H[37;160H8[8;1H[34h[?25h[?25l[37;150H~@k[8;1H[37;150H   [9;1H[37;160H9[9;1H[34h[?25h[?25l[37;150H~@k[9;1H[37;150H   [10;1H[37;160H10,1[10;1H[34h[?25h[?25l[37;150H~@k[10;1H[37;150H   [11;1H[37;161H1[11;1H[34h[?25h[?25l[37;150H~@k[11;1H[37;150H   [12;1H[37;161H2[12;1H[34h[?25h[?25l[37;150H~@k[12;1H[37;150H   [13;1H[37;161H3[13;1H[34h[?25h[?25l[37;150H~@k[13;1H[37;150H   [14;1H[37;161H4[14;1H[34h[?25h[?25l[37;150H~@k[14;1H[37;150H   [15;1H[37;161H5[15;1H[34h[?25h[?25l[37;150H~@k[15;1H[37;150H   [16;1H[37;161H6[16;1H[34h[?25h[?25l[37;150H~@k[16;1H[37;150H   [17;1H[37;161H7[17;1H[34h[?25h[?25l[37;150H~@k[17;1H[37;150H   [18;1H[37;161H8[18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H^M[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H^M[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H^M[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H~@k[18;1H[37;150H   [18;1H[34h[?25h[?25l[37;150H^[[18;1H[37;150H  [18;1H[37;150H^[[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H^[[18;1H[37;150H  [18;1H[37;150H^[[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H^[[18;1H[37;150H  [18;1H[37;150H^[[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H^[[18;1H[37;150H  [18;1H[37;150H^[[18;1H[37;150H  [18;1H[34h[?25h[?25l[37;150H^Z[18;1H[37;1H
+[?1l>[34h[?25h[?1049l
+[1]+  Stopped                 git commit
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git commit
+hint: Waiting for your editor to close the file... [?1049h[?1h=[1;37r[23m[24m[0m[H[J[?25l[37;1H[1m[37m[41mE325: ATTENTION[0m
+Found a swap file by the name "~/FraxrAI/.git/.COMMIT_EDITMSG.swp"
+[10Cowned by: bd4ba755898645a3a4b98cab4c3807ba   dated: Thu Jul 14 18:04:16 2022
+[9Cfile name: ~bd4ba755898645a3a4b98cab4c3807ba/FraxrAI/.git/COMMIT_EDITMSG
+[10Cmodified: no
+[9Cuser name: bd4ba755898645a3a4b98cab4c3807ba   host name: 3724195b40cf
+[8Cprocess ID: 1846 (STILL RUNNING)
+While opening file "/projects/bd4ba755-8986-45a3-a4b9-8cab4c3807ba/FraxrAI/.git/COMMIT_EDITMSG"
+[13Cdated: Thu Jul 14 18:04:45 2022
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /projects/bd4ba755-8986-45a3-a4b9-8cab4c3807ba/FraxrAI/.git/COMMIT_EDITMSG"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/projects/bd4ba755-8986-45a3-a4b9-8cab4c3807ba/FraxrAI/.git/.COMMIT_EDITMSG.swp"
+    to avoid this message.
+
+[32mSwap file "~/FraxrAI/.git/.COMMIT_EDITMSG.swp" already exists![0m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [34h[?25h[0m[37;1H[K[37;1H
+[?1l>[?1049lerror: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ add .
+bash: add: command not found
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git commit
+hint: Waiting for your editor to close the file... [?1049h[?1h=[1;37r[23m[24m[0m[H[J[?25l[37;1H[1m[37m[41mE325: ATTENTION[0m
+Found a swap file by the name "~/FraxrAI/.git/.COMMIT_EDITMSG.swp"
+[10Cowned by: bd4ba755898645a3a4b98cab4c3807ba   dated: Thu Jul 14 18:04:16 2022
+[9Cfile name: ~bd4ba755898645a3a4b98cab4c3807ba/FraxrAI/.git/COMMIT_EDITMSG
+[10Cmodified: no
+[9Cuser name: bd4ba755898645a3a4b98cab4c3807ba   host name: 3724195b40cf
+[8Cprocess ID: 1846 (STILL RUNNING)
+While opening file "/projects/bd4ba755-8986-45a3-a4b9-8cab4c3807ba/FraxrAI/.git/COMMIT_EDITMSG"
+[13Cdated: Thu Jul 14 18:06:42 2022
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /projects/bd4ba755-8986-45a3-a4b9-8cab4c3807ba/FraxrAI/.git/COMMIT_EDITMSG"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/projects/bd4ba755-8986-45a3-a4b9-8cab4c3807ba/FraxrAI/.git/.COMMIT_EDITMSG.swp"
+    to avoid this message.
+
+[32mSwap file "~/FraxrAI/.git/.COMMIT_EDITMSG.swp" already exists![0m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [34h[?25h[0m[37;1H[K[37;1H
+[?1l>[?1049lerror: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ [K(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ reset
+(base) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ reset
+c[?1000l[?25h(base) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ cd[K[Kreset[Kreset[K[K[K[K[Kconda activate cv_ne[K[Kenv
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git .[Kadd .[K(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .git add .
+fatal: pathspec 'add' did not match any files
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ ^C
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .\[K
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git commit -m ‘Final changes’
+error: pathspec 'changes’' did not match any file(s) known to git
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git push head origin
+fatal: 'head' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ 
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git commit -m ‘Final changes’
+error: pathspec 'changes’' did not match any file(s) known to git
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git push head origin
+fatal: 'head' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ [K(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git push head origincommit -m ‘Final changes’add .[K
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add .push head origincommit -m ‘Final changes’
+error: pathspec 'changes’' did not match any file(s) known to git
+(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(cv_env) ]0;~/FraxrAI[01;34m~/FraxrAI[00m$ git add 

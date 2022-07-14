@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(21, 30, 41, 0.7), rgba(21, 30, 41, 0.7)), url("{{ url_for('static', filename='images/logo.png')}}");
+    /* background-color: #1F2833; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    
+     background-color: #1F2833; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.logo{
+    width: 5%;
+}
+
+nav{
+    display: flex;
+    padding: 1vw 1vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B0C10;
+}
+
+nav img{
+    width: 7vw;
+    filter: invert(100%);
+}
+
+.nav-links{
+    flex: 1; /* Occupied all the space in the row */
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1vw 2.4vw;
+    position: relative;
+}
+.nav-links ul li::after{
+    Content: '';
+    width: 0%;
+    height: 0.1vw;
+    background: #66FCF1;
+    display: block;
+    margin: auto;
+    box-shadow: 0.09vw 0.09vw 0vw #FF0000;
+    transition: 0.4s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+.nav-links ul li a{
+    color: #66FCF1; /* Light blue color */
+    text-decoration: none; /* Removes the Underline fron the links */
+    font-size: 2vw;
+    text-shadow: 0.09vw 0.09vw 0vw #FF0000;
+}
+
+.text-box{
+    width: 90%;
+    color: #66FCF1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 5vw;
+    text-shadow: 0.2vw 0.2vw 0vw #ff0000;
+}
+
+.text-box p{
+    margin: 0.1vw 0.1vw 0.1vw;
+    font-size: 1.75vw;
+    color: #C5C6C7
+}
+
+.form-control{
+    background: transparent;
+    color: #66FCF1;
+    border-width: 0px;
+    font-size: 1vw;
+    padding: 0.1vw 0.1vw;
+    transition: 1s;
+}
+
+.form-control:hover{
+    color: #fff;
+    transition: 1s;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #66FCF1;
+    border: 0.15vw solid #45A28E;
+    padding: 0.1vw 0.1vw;
+    font-size: 2vw;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0%;
+    transition: 1s;
+}
+
+.hero-btn:hover{
+    background: rgba(102, 252, 241, 0.5);
+    transition: 1s;
+}
+/* ------- Demo -------- */
+.Demo{
+    color: #0B0C10;
+    background-color: #45A29E;
+    padding: 0.25vw 0.25vw;
+    border-top: 0.33vw solid #66FCF1;
+    border-bottom: 0.33vw solid #66FCF1;
+    transition: 0.5s;
+}
+
+.Demo:hover{
+    border-top: 1vw solid #66FCF1;
+    border-bottom: 1vw solid #66FCF1;
+    transition: 0.5s;
+}
+
+.Demo h1{
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+
+
+/* ------- About Us -------- */
+.about-us{
+    border-top: 1vw solid #1F2833;
+    border-bottom: 1vw solid #1F2833;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1vw;
+    background-color: #0B0C10;
+    transition: 0.5s;
+}
+
+.about-us:hover{
+    border-top: 1vw solid #1F2833;
+    border-bottom: 1vw solid #1F2833;
+    transition: 0.5s;
+}
+
+.about-us h1{
+    color: #66FCF1;
+    font-size: 3vw;
+    text-shadow: 0.2vw 0.2vw 0vw #ff0000;
+}
+
+.about-us p{
+    font-size: 1.2vw;
+    color: #C5C6C7;
+}
+
+.about-us img{
+    width: 10vw;
+    height: 10vw;
+    background-color: #1F2833;
+    padding: 0.1vw 0.1vw;
+    border: 1vw outset #66FCF1;
+    transition: 0.5s;
+}
+
+.about-us img:hover{
+    border-width: 0.5vw;
+    transition: 0.5s;
+    width: 15vw;
+    height: 15vw;
+}
+
+.about-us-row{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-row h3{
+    color: #C5C6C7;
+    font-size: 1.2vw;
+    padding-top: 1vw;
+}
+/* 
+Black           --- #0B0C10
+Grey            --- #1F2833
+Light Grey      --- #C5C6C7
+Light Blue      --- #66FCF1
+Cyan            --- #45A29E
+True Red        --- #ff0000
+*/
