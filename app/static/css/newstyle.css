@@ -12,15 +12,7 @@
     background-size: cover;
     position: relative;
 }
-.header2{
-    min-height: 100vh;
-    width: 100%;
-    
-     background-color: #1F2833; */
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
+
 
 
 .logo{
@@ -92,8 +84,10 @@ nav img{
 .text-box p{
     margin: 0.1vw 0.1vw 0.1vw;
     font-size: 1.75vw;
-    color: #C5C6C7
+    color: #C5C6C7;
+    padding-bottom: 2vw;
 }
+
 
 .form-control{
     background: transparent;
@@ -114,19 +108,20 @@ nav img{
     text-decoration: none;
     color: #66FCF1;
     border: 0.15vw solid #45A28E;
-    padding: 0.1vw 0.1vw;
+    padding: 0.5vw 0.1vw;
     font-size: 2vw;
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 0%;
     transition: 1s;
+    line-height: 0px;
 }
 
 .hero-btn:hover{
     background: rgba(102, 252, 241, 0.5);
     transition: 1s;
 }
+
 /* ------- Demo -------- */
 .Demo{
     color: #0B0C10;
@@ -153,19 +148,20 @@ nav img{
 
 /* ------- About Us -------- */
 .about-us{
-    border-top: 1vw solid #1F2833;
+    border-top: 0.5vw solid #1F2833;
     border-bottom: 1vw solid #1F2833;
     width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 1vw;
+    padding-bottom: 1vw;
     background-color: #0B0C10;
     transition: 0.5s;
 }
 
 .about-us:hover{
-    border-top: 1vw solid #1F2833;
-    border-bottom: 1vw solid #1F2833;
+    border-top: 0.5vw solid #1F2833;
+    border-bottom: 3vw solid #1F2833;
     transition: 0.5s;
 }
 
@@ -210,6 +206,69 @@ nav img{
     font-size: 1.2vw;
     padding-top: 1vw;
 }
+
+/* results page */
+
+.results{
+    border-top: 1vw solid #1F2833;
+    border-bottom: 1vw solid #1F2833;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: #0B0C10;
+    transition: 0.5s;
+}
+
+.results:hover{
+    border-top: 1vw solid #1F2833;
+    border-bottom: 1vw solid #1F2833;
+    transition: 0.5s;
+}
+
+.results h1{
+    color: #66FCF1;
+    font-size: 3vw;
+    text-shadow: 0.2vw 0.2vw 0vw #ff0000;
+}
+
+.results p{
+    font-size: 1.2vw;
+    color: #C5C6C7;
+}
+
+.results img{
+    width: 10vw;
+    height: 10vw;
+    background-color: #1F2833;
+    padding: 0.1vw 0.1vw;
+    border: 1vw outset #66FCF1;
+    transition: 0.5s;
+}
+
+.results img:hover{
+    border-width: 0.5vw;
+    transition: 0.5s;
+    width: 15vw;
+    height: 15vw;
+}
+
+.results-row{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-row h3{
+    color: #C5C6C7;
+    font-size: 1.2vw;
+    padding-top: 1vw;
+}
+
 /* 
 Black           --- #0B0C10
 Grey            --- #1F2833

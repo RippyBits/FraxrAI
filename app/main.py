@@ -50,7 +50,7 @@ def home():
             return redirect(url_for('uploaded_file',
                                     filename=filename))
 
-    return render_template('newhome.html')                           # Change for different html
+    return render_template('home.html')                           # Change for different html
 
 
 @app.route(f'{base_url}/uploads/<filename>')
@@ -96,12 +96,12 @@ def uploaded_file(filename):
                 labels = ["Fractures"]
         labels = [fracture.capitalize() for fracture in labels]
         labels = and_syntax(labels)
-        return render_template('results.html', confidences=format_confidences, labels=labels,
+        return render_template('newresults.html', confidences=format_confidences, labels=labels,
                                old_filename=filename,
                                filename=filename, num_labels=num_labels)
     else: #If there's no fractures found
         found = False
-        return render_template('results.html', labels='No Fractures', old_filename=filename, filename=filename)
+        return render_template('newresults.html', labels='No Fractures', old_filename=filename, filename=filename)
 
 
 @app.route(f'{base_url}/uploads/<filename>', methods=['GET','POST'])
@@ -126,7 +126,7 @@ def results(filename):
             return redirect(url_for('uploaded_file',
                                  filename=filename))
 
-    return render_template('results.html')
+    return render_template('newresults.html')
 
 
 @app.route(f'{base_url}/uploads/<path:filename>')

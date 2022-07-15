@@ -17,10 +17,14 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-navigation main-nav navbar-togglable">
         <div class="container">
-           
-            
+            <a class="navbar-brand" href="#">
+                <img src="{{ url_for('static', filename='images/logo.png')}}" width="90" height="55" alt="">
+              </a>
+            <a class="navbar-brand" href="#">
+                <h3>FraxrAI</h3>
+            </a>
             <!-- Toggler -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
@@ -29,23 +33,31 @@
             <!-- Collapse -->
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <!-- Links -->
-                <nav>
-            <a href=""><img src="{{ url_for('static', filename='images/logo.png')}}"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="#Demo">DEMO</a></li>
-                    <li><a href="#About">ABOUT US</a></li>
-             
+                <ul class="navbar-nav row">
+                        <li class="nav-item ">
+                            <a href="#home" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#intro" class="nav-link"> <!-- Create an id = "intro" -->
+                                Introduction
+                          </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#meet_the_team" class="nav-link">
+                                The Team
+                            </a>
+                        </li>
+                    </ul>
+                <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
+                    <li><a href="https://michaelzhang1.typeform.com/to/LWIfVW1H?typeform-source=www.ai-camp.org" target="_blank" class="btn btn-green btn-circled btn-two">Register for AI Camp</a></li>
                 </ul>
-            </div>
-        </nav>
-                
             </div> <!-- / .navbar-collapse -->
         </div> <!-- / .Container -->
     </nav>
 
-    <section class = "header2">
+    <section class = "results">
             <div class="container">  
         <div class="row">
                 <div class="col justify-content-center align-items-center text-center">
@@ -53,7 +65,7 @@
                     <h3 class="we-found btn-text display-4">We found <strong><span style='text-transform: capitalize;'>{{num_labels}} {{labels}}!</span></strong></h3>
 
                     {% if labels == 'No Fractures' %}
-                    <div>We missed? See why below.</div>
+                    <p>We missed? See why below.<p>
                     {% else %}
                     <div class="lead"><em>with {{ confidences }} confidence.</em></div>
                     {% endif %}
@@ -69,14 +81,12 @@
                 </div>
                 <div class="col">
                     <img class="mbr-figure" src="{{ url_for('static', filename='uploads/' + filename)}}">
-                   
-                        
                 </div>
                 </div>
             </div>
     </section>
 
-    <section class = "header2">
+    <section class = "header">
             <div class="text-box">
                 <div class="col-sm-12 col-lg-6 text-center">
                     <p>Why do we have errors?<br> Due to the confidentiality of medical information it was difficult for us to gather a large data set.</p>
